@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "type": "simple",
+      "title": "Simple Component",
+      "hidden": false
+    },
+    {
+      "id": 2,
+      "type": "feature",
+      "title": "Feature Component",
+      "hidden": false
+    },
+    {
+      "id": 3,
+      "type": "widget",
+      "title": "Widget Component",
+      "hidden": false
+    }
+  ]
+}
