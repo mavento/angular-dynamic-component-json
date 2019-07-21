@@ -1,6 +1,10 @@
 # Dynamic Angular Components from Json
 The repository is an experiment of loading components from JSON and add them dynamically into the dom. 
 
+Example
+
+https://stackblitz.com/edit/angular-dynamic-component-json
+
 The JSON Input loaded from the server to create the composite component:
 
 ```json

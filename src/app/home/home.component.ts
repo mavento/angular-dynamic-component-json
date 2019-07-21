@@ -5,9 +5,7 @@ import {Item} from "../model/item";
 @Component({
   selector: 'app-home',
   template: `
-    <!--<div id="container">-->
-      <app-item></app-item>
-    <!--</div>-->
+    <app-item></app-item>
   `,
   styleUrls: ['./home.component.scss']
 })
@@ -25,7 +23,6 @@ export class HomeComponent implements OnInit {
   getItems() {
     this.itemService.all().subscribe(items => {
       this.items = items;
-      console.log('items ', items);
     });
   }
 }
